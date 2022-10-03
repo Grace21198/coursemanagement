@@ -1,0 +1,22 @@
+
+h1:hover{
+
+    opacity: 1;
+}
+
+h1{
+    color: blue;
+    animation-name: fita;
+    width: 200px;
+    background-color: blue;
+    animation-duration: 5s;
+    transition: opacity 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fita{
+    0%{color: red;}
+    50%{color: yellow; padding-left: 20%;}
+    70%{color: blue;}
+    100%{color: green;}
+}
